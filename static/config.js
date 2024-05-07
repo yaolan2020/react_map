@@ -1,4 +1,4 @@
 var globalConfig = Object.assign(
   {
-    systemName: '测试学习'
+    systemName: '杭州市行政区域'
   }, apiConfig);

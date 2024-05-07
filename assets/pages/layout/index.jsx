@@ -33,7 +33,7 @@ const Layout = () => {
 
   return newModules.length > 0 ? (
     <div className="container">
-      <Header modules={newModules} />
+      {/* <Header modules={newModules} /> */}
       <Switch>
         {authUtils.getHomePath() === getRootRedirect(newModules) ? null : (
           <Route
